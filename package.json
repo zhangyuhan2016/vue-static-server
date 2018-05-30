@@ -3,9 +3,6 @@
   "version": "0.0.4",
   "description": "vue@cli 3.0 test server",
   "main": "index.js",
-  "scripts": {
-    "static": "node index.js"
-  },
   "keywords": [
     "express",
     "vue@cli",
