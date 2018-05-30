@@ -1,6 +1,6 @@
 {
   "name": "vue-static-server",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "vue@cli 3.0 test server",
   "main": "index.js",
   "keywords": [
@@ -10,6 +10,10 @@
     "address"
   ],
   "author": "zhangyuhan2016",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangyuhan2016/vue-static-server.git"
+  },
   "license": "MIT",
   "dependencies": {
     "address": "^1.0.3",
