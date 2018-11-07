@@ -3,6 +3,9 @@
   "version": "0.0.6",
   "description": "vue@cli 3.0 test server",
   "main": "index.js",
+  "bin": {
+    "vue-static-server": "./serve.js"
+  },
   "keywords": [
     "express",
     "vue@cli",
