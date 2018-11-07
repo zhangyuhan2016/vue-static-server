@@ -1,4 +1,5 @@
-'use strict'
+#!/usr/bin/env node
+
 const staticServer = require('./index')
 staticServer({
   port: 1234,       // 端口号

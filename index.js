@@ -3,6 +3,7 @@
 const http = require('http')
 const express = require('express')
 const app = express()
+const history = require('connect-history-api-fallback')
 
 const opn = require('opn')
 const address = require('address')
@@ -13,6 +14,7 @@ function staticServer ({
     outputDir = 'dist'
 } = {}){
     let url = `http://${address.ip()}:${port}${baseUrl}`
+    app.use(history({ htmlAcceptHeaders: ['text/html', 'application/xhtml+xml'] }))
     // 指定映射目录
     app.use(baseUrl, express.static(outputDir))
     // 创建服务端
