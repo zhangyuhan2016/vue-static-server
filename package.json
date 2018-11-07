@@ -1,6 +1,6 @@
 {
   "name": "vue-static-server",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "vue@cli 3.0 test server",
   "main": "index.js",
   "bin": {
